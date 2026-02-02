@@ -24,3 +24,29 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.plants {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  justify-content: space-around;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.berry, .pepper, .flower1, .flower2 {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+text-align: center;
+margin-top: 8px;
+}
